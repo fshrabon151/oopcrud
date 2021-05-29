@@ -2,9 +2,9 @@
 include_once "app/header.php";
 ?>
 
-<div class="w-25 h-100 p-5 mx-auto">
-    <div class="row justify-content-center mt-5">
-        <div class="card mt-5">
+<div class="container mt-5">
+    <div class="row justify-content-center align-items-center mt-5 pt-5">
+    <div class="card mt-5">
             <div class="card-body">
                 <div class="text-center">
                     <h2>Choose profile</h2>
@@ -14,4 +14,5 @@ include_once "app/header.php";
             </div>
         </div>
     </div>
+
 </div>
