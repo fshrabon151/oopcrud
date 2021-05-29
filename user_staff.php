@@ -1,10 +1,10 @@
 <?php include_once "app/header.php";
 include "autoload.php";
-$staff = new Staff;
+$user = new User;
 if (isset($_GET['id'])) {
 
     $id = $_GET['id'];
-    $data = $staff->viewData($id);
+    $data = $user->viewData($id);
     $d = $data->fetch_object();
 }
 
@@ -47,7 +47,7 @@ if (isset($_GET['id'])) {
 
         </div>
         <div class=" card-footer">
-            <a href="staff_index.php" class="btn btn-primary btn-sm float-right">Back</a>
+            <a href="user_index.php" class="btn btn-primary btn-sm float-right">Back</a>
         </div>
     </div>
 </div>
